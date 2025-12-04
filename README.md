@@ -148,7 +148,7 @@ The CSS is well-organized with clear sections:
 - 🎨 Pink color scheme (`#ff6b81`) for vibrant, friendly look
 - 📦 Flexbox for responsive layouts
 - 🎭 Hover effects for better UX
-- 🔘 Custom radio button styling (hidden native inputs)
+- 🔘 Custom radio button styling (native inputs hidden with CSS, replaced with styled elements)
 - 📱 Mobile-friendly with proper spacing
 
 ### JavaScript Functionality (`script.js`)
@@ -243,7 +243,7 @@ This widget works on all modern browsers:
 
 **Jyoti Prakash Rout**
 
-Built with 💖 by Jyoti
+Built with 💖 By Jyoti
 
 - GitHub: [@Jyoti-prakash-rout](https://github.com/Jyoti-prakash-rout)
 
