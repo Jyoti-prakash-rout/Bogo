@@ -1,14 +1,13 @@
 # 🎉 BOGO Offer Widget
 
-A clean, simple, and modern **BOGO** product offer widget built using **HTML, CSS, and JavaScript**.  
-
-
+A clean, simple, and modern **BOGO** product offer widget built using **HTML, CSS, and JavaScript**.
 
 ---
 
 ## ✨ Features
 
 ### 🎨 UI & UX
+
 - Beautiful and responsive BOGO widget
 - Three product options:
   - **1 Unit** – 10% Off
@@ -21,14 +20,15 @@ A clean, simple, and modern **BOGO** product offer widget built using **HTML, CS
 - Clean layout and modern styling
 
 ### 🧠 JavaScript Functionality
+
 - Updates total price when selecting options
 - Highlights the selected product card
 - Prevents option switching when clicking dropdowns
 
-
 ---
 
 ## 🛠️ Tech Stack
+
 - **HTML5**
 - **CSS3**
 - **JavaScript (Vanilla JS)**
@@ -37,8 +37,12 @@ A clean, simple, and modern **BOGO** product offer widget built using **HTML, CS
 
 ## 📂 Project Structure
 
-project-folder/
+```txt
+
+ project-folder/
 │
 ├── index.html      # Main HTML structure
 ├── style.css       # All styling for the widget
 └── script.js       # JS logic for interaction
+
+```
