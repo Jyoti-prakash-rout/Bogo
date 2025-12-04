@@ -1,0 +1,236 @@
+/* ===========================
+   RESET
+=========================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2d2d2d;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* ===========================
+   MAIN WIDGET
+=========================== */
+.widget {
+  width: 100%;
+  max-width: 500px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background: #ddd;
+}
+
+h1 {
+  color: #ff6b81;
+  font-size: 22px;
+}
+
+/* ===========================
+   OPTIONS LIST
+=========================== */
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.option {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.option:hover {
+  border-color: #ff9ca8;
+}
+
+.option-one {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+/* ===========================
+   POPULAR OPTION
+=========================== */
+.popular {
+  border: 2px solid #ff6b81;
+  background: #fff5f6;
+  position: relative;
+}
+
+.popular-tag {
+  background: #ff6b81;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  position: absolute;
+  margin-top: -30px;
+  right: 0;
+  border-radius: 4px 4px 4px 4px;
+}
+
+/* ===========================
+   RADIO BUTTONS
+=========================== */
+input[type="radio"] {
+  display: none;
+}
+
+.radio {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+}
+
+.second-radio {
+  display: flex;
+}
+
+.third-radio {
+  display: flex;
+}
+
+input[type="radio"]:checked + .radio {
+  border-color: #ff6b81;
+}
+
+input[type="radio"]:checked + .radio::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #ff6b81;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ===========================
+   OPTION INFO
+=========================== */
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tag {
+  padding: 3px 6px;
+  border-radius: 3px;
+  font-size: 11px;
+}
+
+.pink {
+  background: #ff6b81;
+  color: white;
+}
+
+.dark {
+  background: #333;
+  color: white;
+  margin-top: 10px;
+  border: blue;
+}
+
+.current {
+  font-weight: bold;
+  width: 100px;
+}
+
+.old {
+  text-decoration: line-through;
+  color: #ff6b81;
+  font-size: 12px;
+}
+
+/* ===========================
+   SIZE & COLOR SELECTORS
+=========================== */
+.selectors {
+  margin-top: 12px;
+}
+
+.select-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+select {
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+.footer {
+  margin-top: 20px;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.total {
+  border: 1px solid #ff6b81;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.cart-btn {
+  width: 100%;
+  padding: 12px;
+  background: #ff6b81;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.plus {
+  margin-right: 5px;
+}
+
+.powered {
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+  margin-top: 10px;
+}

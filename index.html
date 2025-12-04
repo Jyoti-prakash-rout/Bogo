@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="widget">
+
+      <!-- Header -->
+      <div class="header">
+        <div class="line"></div>
+        <h1>YAY! It's BOGO</h1>
+        <div class="line"></div>
+      </div>
+
+      <!-- Product Options -->
+      <div class="options">
+
+        <!-- Option 1 -->
+        <div class="option" data-units="1" data-price="10.00">
+          <label class="option-one">
+
+            <input type="radio" name="units" />
+            <span class="radio"></span>
+
+            <div class="info">
+              <div>
+                <strong>1 Unit</strong>
+                <span class="tag pink">10% Off</span>
+                <div class="tag dark">Standard Price</div>
+              </div>
+
+              <div class="prices">
+                <div class="current">$10.00 USD</div>
+                <div class="old">$24.00 USD</div>
+              </div>
+            </div>
+
+          </label>
+        </div>
+
+        <!-- Option 2 (Popular) -->
+        <div class="option popular" data-units="2" data-price="18.00">
+
+          <div class="popular-tag">MOST POPULAR</div>
+
+          <label>
+            <div class="second-radio">
+
+              <input type="radio" name="units" checked />
+              <span class="radio"></span>
+
+              <div class="info">
+                <div>
+                  <strong>2 Units</strong>
+                  <span class="tag pink">20% Off</span>
+                </div>
+              </div>
+
+              <div class="second-price">
+                <div class="prices">
+                  <span class="current">$18.00 USD</span>
+                  <span class="old">$24.00 USD</span>
+                </div>
+              </div>
+
+            </div>
+          </label>
+
+          <!-- Size & Color selectors -->
+          <div class="selectors">
+
+            <div class="select-row">
+              <span>#1</span>
+
+              <select class="size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+              </select>
+
+              <select class="color">
+                <option>Black</option>
+                <option>White</option>
+                <option>Red</option>
+                <option>Blue</option>
+              </select>
+            </div>
+
+            <div class="select-row">
+              <span>#2</span>
+
+              <select class="size">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+              </select>
+
+              <select class="color">
+                <option value="">Colour</option>
+                <option>Black</option>
+                <option>White</option>
+                <option>Red</option>
+                <option>Blue</option>
+              </select>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Option 3 -->
+        <div class="option" data-units="3" data-price="24.00">
+
+          <label>
+            <div class="third-radio">
+
+              <input type="radio" name="units" />
+              <span class="radio"></span>
+
+              <div class="info">
+                <div>
+                  <strong>3 Units</strong>
+                  <span class="tag pink">30% Off</span>
+                </div>
+              </div>
+
+              <div class="prices">
+                <div class="current">$24.00 USD</div>
+                <div class="old">$24.00 USD</div>
+              </div>
+
+            </div>
+          </label>
+
+        </div>
+
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+
+        <div class="summary">
+          <span class="free">Free Delivery</span>
+          <span class="total">Total: $18.00 USD</span>
+        </div>
+
+        <button class="cart-btn">
+          <span class="plus">+</span>
+          Add to Cart
+        </button>
+
+        <p class="powered">Built with 💖 By Jyoti</p>
+      </div>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
